@@ -1,14 +1,14 @@
 # 残酷刷题
 
-每天完成一道题，每天的截止时间20：00
+每天完成一道题，每天的截止时间20：00。持续时间：2020/02/03 - 秋招结束
 
 ## 如何加入
 
-微信号添加：hjyyizi
+微信号添加：hjyyizi。然后我会拉你进群
 
 ## T人规则
 
-连续三天不打卡，T人。准确来说是第三天过24点之后，仍然没有完成三天前的任何一道题。
+连续三天不打卡，T人。准确来说是第三天过20：00之后，仍然没有完成三天前的任何一道题。
 
 举个例子：
 
@@ -19,7 +19,9 @@ else:
   小黑侥幸活过来
 ```
 
-T人的脚本你可以在github仓库中：https://github.com/JyiHUO/2020_qiuzhao。找到
+T人的脚本你可以在github仓库中：[https://github.com/university-of-southampton-1920/qiuzhao2020/blob/master/judge.py](https://github.com/university-of-southampton-1920/qiuzhao2020/blob/master/judge.py)。找到
+
+每天20：00过后，服务器运行`judge.py`脚本，该脚本拉取github上的代码，并统计每个人的提交情况。
 
 ## 代码提交
 
