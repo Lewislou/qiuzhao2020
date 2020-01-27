@@ -34,15 +34,11 @@ github仓库：https://github.com/JyiHUO/2020_qiuzhao
 
 举个例子：
 
-红色圈圈的是你的leetcode id
+这是我leetcode的专属链接：[https://leetcode.com/biss/](https://leetcode.com/biss/)
 
-![image-20200121220805797](/Users/huojunyi/Library/Application Support/typora-user-images/image-20200121220805797.png)
+假如我完成了题号为**1**的leetcode题目，名字叫Two Sum。
 
-红色圈圈是第一题，名字叫Two Sum
-
-![image-20200121220951970](/Users/huojunyi/Library/Application Support/typora-user-images/image-20200121220951970.png)
-
-那么你当天提交的文件名是：
+那么你当天提交的文件名是(biss是链接最后一个词，它是你leetcode的唯一id，1是题号)：
 
 * biss_1.py(如果你是用python写的话，biss是我的leetcode id，1是这个题的题号)
 * biss_1.cpp(如果你是用cpp写的话)
