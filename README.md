@@ -1,6 +1,6 @@
 # 残酷刷题
 
-每天完成一道题，每天的截止时间20：00。持续时间：2020/02/03 - 秋招结束
+每天完成一道题，每天的截止时间是英国时间20：00。持续时间：2020/02/03 - 秋招结束
 
 ## 如何加入
 
@@ -13,6 +13,7 @@
 举个例子：
 
 ```python
+# 在24号晚上过了20：00后开始运行脚本
 if 小黑22号没有刷 & 23号没有刷 & 24号20点过后仍然没有刷过22，23，24号的任何一道题：
 	小黑被T
 else:
@@ -43,7 +44,7 @@ github仓库：https://github.com/JyiHUO/2020_qiuzhao
 
 那么你当天提交的文件名是：
 
-* biss_1.py(如果你是用python写的话)
+* biss_1.py(如果你是用python写的话，biss是我的leetcode id，1是这个题的题号)
 * biss_1.cpp(如果你是用cpp写的话)
 * ...
 
@@ -61,19 +62,35 @@ git clone https://github.com/JyiHUO/2020_qiuzhao.git
 git pull
 ```
 
-接着，找到当天日期的文件夹（假如是2020_01_21）：
+接着，找到当天日期的文件夹（假如是2020_01_27）：
 
-![image-20200121222212445](/Users/huojunyi/Library/Application Support/typora-user-images/image-20200121222212445.png)
+```shell
+cd qiuzhao2020/2020_01_27
+```
 
-将你的代码添加到该文件夹里面：
+将你的代码添加到该文件夹里面(使用ls命令来查看你的代码是否在该文件夹里面)：
 
-![image-20200121222322224](/Users/huojunyi/Library/Application Support/typora-user-images/image-20200121222322224.png)
+```python
+ls
+biss-test_1.cpp biss_1.cpp
+```
 
 返回到父目录中，使用以下代码更新仓库，并推送到服务器：
 
 ```shell
 git add -A
-git commit -m "your description"
+git commit -m "leetcode_id + 题号"
 git push origin master
 ```
 
+## 复活规则
+
+被T之后7天完成7道题目，并且这7道题目没有出现在之前布置的题目中，并且题目的难度的平均值要在medium之上。比如说easy，medium，medium，medium，medium，hard，hard
+
+## 群规
+
+* 每天20：00过后在群里面布置明天的题号
+
+* 不许私自删除被人提交的代码（在历史记录可以追查的喔）。发现必踢
+* 可以补交之前没有完成的题目
+* 群暂时限定20人
