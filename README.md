@@ -28,7 +28,7 @@ T人的脚本你可以在github仓库中：[https://github.com/university-of-sou
 
 完成题目的代码需要提交到leetcode的同时也需要提交到github仓库上，方便统计。
 
-github仓库：https://github.com/JyiHUO/2020_qiuzhao
+github仓库：[https://github.com/university-of-southampton-1920/qiuzhao2020](https://github.com/university-of-southampton-1920/qiuzhao2020)
 
 **文件命名规范：leetcode id + leetcode题号。**
 
